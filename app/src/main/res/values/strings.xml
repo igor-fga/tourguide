@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tour Guide</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="bares">Bares</string>
+    <string name="baladas">Baladas</string>
+    <string name="passeios">Passeios Imperdíveis</string>
+</resources>
