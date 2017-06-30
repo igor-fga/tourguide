@@ -1,9 +1,9 @@
 package com.example.android.tourguide;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.support.v7.app.AppCompatActivity;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import java.util.ArrayList;
 
@@ -23,14 +23,11 @@ public class RestaurantActivity extends AppCompatActivity {
         restaurants.add("Madeiro");
         restaurants.add("Fly");
 
-        LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
-        TextView restView = new TextView(this);
-        restView.setText(restaurants.get(0));
-        rootView.addView(restView);
+        ArrayAdapter<String> itemAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, restaurants);
 
-        TextView restView2 = new TextView(this);
-        restView2.setText(restaurants.get(1));
-        rootView.addView(restView2);
+        ListView listView = (ListView) findViewById(R.id.list);
+
+        listView.setAdapter(itemAdapter);;
 
     }
 }
