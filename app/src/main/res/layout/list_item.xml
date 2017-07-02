@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:minHeight="@dimen/list_item_height"
+    android:id="@+id/container">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_item_height"
+        android:src="@mipmap/ic_launcher"
+        android:paddingBottom="@dimen/image_padding_bottom"/>
+
+    <TextView
+        android:id="@+id/place_name_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PLACE"
+        android:textSize="@dimen/text_view_name_place"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/desc_place_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="Description"
+        android:textColor="@android:color/white"/>
+
 
 </LinearLayout>

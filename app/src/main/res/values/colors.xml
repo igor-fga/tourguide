@@ -3,4 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="category_restaurant">#e53935</color>
+    <color name="category_bar">#304ffe</color>
+    <color name="category_balada">#6200ea</color>
+    <color name="category_passeio">#16AFCA</color>
 </resources>

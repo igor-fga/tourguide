@@ -4,4 +4,58 @@
     <string name="bares">Bares</string>
     <string name="baladas">Baladas</string>
     <string name="passeios">Passeios Imperdíveis</string>
+    <string name="descDOM">O menu à la carte funciona apenas no almoço, com pratos que refletem as pesquisas de Alex Atala sobre ingredientes nacionais,
+        como a pupunha fresca com vieiras e molho de coral (R$ 112) e o filhote com tucupi e tapioca (R$ 163). No jantar, trabalha apenas com
+        menu-degustação (R$ 495 o de oito etapas). Este ano, foi eleito, também pela revista "Restaurant", como o sexto melhor
+        restaurante do mundo. </string>
+    <string name="desFasano">Em ambiente elegante, a casa do restaurateur Rogério Fasano aposta na cozinha italiana clássica. Fica a cargo do chef
+        Luca Gozzani (ex-Fasano al Mare), nascido na Itália, a execução de receitas como a costeleta de vitela à milanesa ladeada por salada (R$ 119).
+        O sommelier Manoel Beato faz boas sugestões de vinho
+        para acompanhar os pratos.</string>
+    <string name="descMocoto">Em um lugar simples, na Vila Medeiros, o chef Rodrigo Oliveira aposta em receitas da culinária nordestina. Entre as
+        opções, há atolado de bode, um ensopado de cabrito com mandioca, tomate-cereja, cebola em conserva e cheiro-verde (R$ 38,90, para duas pessoas).
+        A carne de sol (R$ 36,90), queridinha do menu, é acompanhada de alho assado e chips de mandioca.
+        As filas são quase inevitáveis.</string>
+    <string name="descMani">Eleita a melhor chef mulher da América Latina, também nesta premiação, Helena Rizzo comanda a cozinha do restaurante da zona
+        oeste junto do catalão Daniel Redondo. A proposta é de uma gastronomia moderna, com receitas com muita técnica, que renderam à casa o 46º lugar
+        na lista de melhores restaurantes do mundo, também pela "Restaurant". Entre as opções do menu, há o arroz de lagostim (R$ 69) e a paleta de
+        cordeiro com tubérculos assados e
+        farofa de castanha-do-pará (R$ 70).</string>
+    <string name="descLaterna">A Lantera Bar: localizado no bairro da Vila Madalena, a casa possui vários ambientes que agradam o mais diverso público.
+        Na pista, os Dj’s misturam tecno britânico, rock internacional,
+        pop rock nacional e MPB.</string>
+    <string name="descSecreto">Bar Secreto: localizado no bairro de Pinheiros, a casa ganhou status depois da visita da rainha do pop Madonna, em 2008,
+        após sua turnê na capital paulista. A balada tem o estilo clube privê com som predominante de house e variações de dance music e eletrônico em
+        suas programações.</string>
+    <string name="descOver">Over Night: famosa por criar tendências e palco de muitos DJ\'s e amantes da música eletrônica. A casa foi inaugurada em 1988,
+        fechada em 2004 e reaberta em 2015. A Over Night ajudou a popularizar a música eletrônica em São Paulo, principalmente na zona leste afinal a
+        casa era fixada na Mooca.</string>
+    <string name="descFiesta">Com a proposta de ser um lugar para celebrar a vida e se divertir o La Fiesta reúne  o estilo e a descontração dos melhores
+        beach clubs internacionais com a energia e o glamour da noite paulistana. Tudo isso reunido em um dos bairros mais sofisticados e badalados da
+        cidade. Moderno e clean cada um dos  ambientes criados podem funcionar
+        de forma independente ou integrados.</string>
+    <string name="descQuitandinha">Um dos Bares mais tradicionais da Vila Madalena, o Quitandinha leva ao público uma mistura de armazém com a descontração
+        de um boteco com mesas espalhadas pela calçada, além de um amplo salão. No cardápio de bebidas chopp e cerveja de garrafa de diferentes marcas
+        para acompanhar petiscos tradicionais como: pastéis, batata frita e outros.</string>
+    <string name="descAstor">O Bar Astor foi inaugurado no ano de 2001 é tornou-se ponto de encontro dos boêmios de plantão.  No cardápio de bebidas o
+        chopp cremoso e gelado, além de sucos e drinks especiais. Para acompanhar pratos que vão desde ostras frescas a sanduíches, sem contar nos petiscos
+        tradicionais de boteco que não pode faltar em um happy hour.</string>
+    <string name="descSalve">O nome Salve Jorge é uma homenagem ao Jorge Famoso, ao Jorge anônimo, é uma demonstração de carinho a todos os Jorges
+        brasileiros. Com ambiente despojado leva ao público um cardápio repleto de bebidas especiais como caipirinhas, além da cerveja de garrafa, para
+        acompanhar petiscos de boteco, além de transmissão dos
+        principais lances dos campeonatos de futebol nas televisões espalhadas pelo bar.</string>
+    <string name="descBento">Inspirado nos antigos botecos da cidade de São Paulo faz a junção da elegância e simplicidade. No cardápio de bebidas
+        o público pode desfrutar do chopp gelado e das famosas caipirinhas de picolé de diferentes sabores, para acompanhar: bolinhos são bento,
+        com carne seca e abóbora, além de variedades de bruschettas, canapés de carpaccio e salmão,
+        tábua de frios, parmegiana no palito entre outros.</string>
+    <string name="descIbira">O Parque Ibirapuera é o mais importante parque urbano da cidade de São Paulo, no Brasil. Foi inaugurado em 21
+        de agosto de 1954 para a comemoração do quarto centenário da cidade.</string>
+    <string name="descMasp">Museu de Arte de São Paulo Assis Chateaubriand é uma das mais importantes instituições
+        culturais brasileiras.</string>
+    <string name="descBotanico">O Jardim Botânico de São Paulo foi fundado em 1928 a partir de um convite feito ao naturalista brasileiro,
+        Frederico Carlos Hoehne, para que implantasse um projeto de botânica na região da Água Funda (bairro) no estado de São Paulo, antes disso
+        a região servia para abastecimento de aguá do Ipiranga
+        (bairro da cidade de São Paulo).</string>
+    <string name="descTheatro">O Theatro Municipal de São Paulo é um dos mais importantes teatros do Brasil e um dos cartões postais da cidade de São Paulo.</string>
+
 </resources>

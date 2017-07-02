@@ -21,7 +21,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#e53935">
+        android:background="@color/category_restaurant">
 
         <TextView
             android:id="@+id/restaurantes"
@@ -32,7 +32,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#304ffe">
+        android:background="@color/category_bar">
 
         <TextView
             android:id="@+id/bares"
@@ -43,7 +43,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#6200ea">
+        android:background="@color/category_balada">
 
         <TextView
             android:id="@+id/baladas"
@@ -54,7 +54,7 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#16AFCA">
+        android:background="@color/category_passeio">
 
         <TextView
             android:id="@+id/passeios"
