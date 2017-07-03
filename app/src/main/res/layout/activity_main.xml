@@ -8,58 +8,9 @@
     android:orientation="vertical"
     tools:context="com.example.android.tourguide.MainActivity">
 
-    <TextView
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingBottom="16dp"
-        android:paddingTop="5dp"
-        android:text="São Paulo"
-        android:textColor="#2F1D1A"
-        android:textSize="40dp" />
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/category_restaurant">
-
-        <TextView
-            android:id="@+id/restaurantes"
-            style="@style/CategoryStyle"
-            android:text="@string/restaurantes" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/category_bar">
-
-        <TextView
-            android:id="@+id/bares"
-            style="@style/CategoryStyle"
-            android:text="@string/bares" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/category_balada">
-
-        <TextView
-            android:id="@+id/baladas"
-            style="@style/CategoryStyle"
-            android:text="@string/baladas" />
-    </FrameLayout>
-
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/category_passeio">
-
-        <TextView
-            android:id="@+id/passeios"
-            style="@style/CategoryStyle"
-            android:text="Passeios Imperdíveis" />
-    </FrameLayout>
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

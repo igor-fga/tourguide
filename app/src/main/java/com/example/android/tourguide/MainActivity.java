@@ -1,56 +1,25 @@
 package com.example.android.tourguide;
 
-import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
+import android.support.v4.view.ViewPager;
+import android.support.v7.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        // Sete o conteúdo da activity para usar o arquivo de layout activity_main.xml
         setContentView(R.layout.activity_main);
 
-        TextView restaurantes = (TextView)findViewById(R.id.restaurantes);
+        // Ache o view pager que habilitará o usuário a deslizar entre fragments
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
 
-        restaurantes.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, RestaurantActivity.class);
-                startActivity(i);
-            }
-        });
+        // Crie um adapter que saiba qual fragment deve ser mostrado em cada página
+        CategoryAdapter adapter = new CategoryAdapter(getSupportFragmentManager());
 
-        TextView bares = (TextView)findViewById(R.id.bares);
-
-        bares.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, BarActivity.class);
-                startActivity(i);
-            }
-        });
-
-        TextView baladas = (TextView)findViewById(R.id.baladas);
-
-        baladas.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, BaladasActivity.class);
-                startActivity(i);
-            }
-        });
-
-        TextView passeios = (TextView)findViewById(R.id.passeios);
-
-        passeios.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, PasseiosActivity.class);
-                startActivity(i);
-            }
-        });
+        // Sete o adapter no view pager
+        viewPager.setAdapter(adapter);
     }
 }
