@@ -16,21 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:label="@string/restaurantes"
-            android:name=".RestaurantActivity"
-            />
-        <activity
-            android:label="@string/bares"
-            android:name=".BarActivity" />
-        <activity
-            android:label="@string/baladas"
-            android:name=".BaladasActivity"
-            />
-        <activity
-            android:label="@string/passeios"
-            android:name=".PasseiosActivity"
-            />
     </application>
 
 </manifest>
